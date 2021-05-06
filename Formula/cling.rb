@@ -22,7 +22,6 @@ class Cling < Formula
 
   uses_from_macos "libxml2"
   uses_from_macos "ncurses"
-  uses_from_macos "zlib"
 
   resource "clang" do
     url "http://root.cern.ch/git/clang.git",
